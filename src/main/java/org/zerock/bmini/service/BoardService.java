@@ -1,4 +1,5 @@
 package org.zerock.bmini.service;
 
-public class BoardService {
+public enum BoardService {
+    INSTANCE;
 }

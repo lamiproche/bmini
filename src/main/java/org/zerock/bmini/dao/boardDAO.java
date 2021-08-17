@@ -1,4 +1,6 @@
 package org.zerock.bmini.dao;
 
-public class boardDAO {
+public enum boardDAO {
+    INSTANCE;
+
 }
