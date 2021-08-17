@@ -41,6 +41,8 @@ abstract class JdbcTemplate {
     private void makeConnection() throws Exception{
         log.info("makeConnection...............");
         this.connection = DriverManager.getConnection("jdbc:mysql://192.168.0.17:3306/bit08db","bituser","bituser");
+        log.info("makeConnection end.................");
+
     }
 
     private void finish() {
