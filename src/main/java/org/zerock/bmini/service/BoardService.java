@@ -1,4 +1,4 @@
 package org.zerock.bmini.service;
 
-public class Sample {
+public class BoardService {
 }
